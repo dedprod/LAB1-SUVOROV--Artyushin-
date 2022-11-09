@@ -9,7 +9,7 @@ void calc()
 {
     x = r * cos(ang);
     y = r * sin(ang);
-    if ((ang >= 0) & (ang <= 360) & (r > 0))
+    if ((ang >= 0) & (r > 0))
     {
         std::cout << "Координаты равны:(" << x << "," << y << ")" << std::endl;
     }
