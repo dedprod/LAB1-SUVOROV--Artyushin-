@@ -6,6 +6,7 @@ int h;
 int idealw;
 void calc()
 {
+idealw = h - 100;
     if ((w > 0) & (h > 0))
     {
         if (w == idealw)
@@ -31,7 +32,6 @@ int main()
     std::cin >> w;
     std::cout << "Введите рост." << std::endl;
     std::cin >> h;
-    idealw = h - 100;
     calc();
 
     return 0;
